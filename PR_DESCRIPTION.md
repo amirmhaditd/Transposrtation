@@ -5,6 +5,7 @@ Implemented test suite to verify README content correctness and ensure proper sp
 
 ## Changes
 - Added `test_runner.py` with test to verify README contains correct title spelling
+  - Uses `pathlib.Path` for robust file path handling relative to test file location
 - Added `requirements.txt` with pytest dependency for test execution
 
 ## Testing
